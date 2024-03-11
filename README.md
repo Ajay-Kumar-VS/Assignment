@@ -1,4 +1,12 @@
+<img width="324" alt="image" src="https://github.com/Ajay-Kumar-VS/Assignment/assets/157338095/fd033d27-0645-4ad8-a73d-9c167dee789e">
+<img width="324" alt="Screenshot 2024-03-11 at 4 49 05 PM" src="https://github.com/Ajay-Kumar-VS/Assignment/assets/157338095/a8d944f1-3ca1-497b-90b4-dc234f41c843">
+<img width="324" alt="Screenshot 2024-03-11 at 4 49 55 PM" src="https://github.com/Ajay-Kumar-VS/Assignment/assets/157338095/07bc10ab-7fa2-4bea-9e42-ca6c9de42187">
+
+
+
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+
 
 # Getting Started
 
