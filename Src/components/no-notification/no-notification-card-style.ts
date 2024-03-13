@@ -16,7 +16,7 @@ export const styles = StyleSheet.create({
     justifyContent: 'space-around',
   },
   image: {
-    marginTop:14.05,
+    marginTop: 14.05,
     height: 154,
     width: 154,
   },
@@ -25,14 +25,14 @@ export const styles = StyleSheet.create({
     gap: 8,
   },
   details: {
-    fontFamily:"Fraunces",
+    fontFamily: 'Fraunces-Bold',
     fontSize: 24,
     lineHeight: 32.4,
-    color: '#454545',
+    color: colors.NoNotificationCardDetails,
     textAlign: 'center',
   },
   subDetails: {
-    fontFamily:"Quicksand-medium",
+    fontFamily: 'Quicksand-medium',
     fontWeight: '500',
     fontSize: 16,
     lineHeight: 24,

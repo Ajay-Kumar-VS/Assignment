@@ -1,16 +1,13 @@
-import { View, Text } from 'react-native'
 import React from 'react'
-// import DActive from './Src/screens/d-active/DActive';
-import DActive from './Src/screens/d-active/DActive';
-import Notification from './Src/screens/notification/Notification';
-import styles from './Src/screens/d-active/d-active-style';
+import DActive from './src/screens/d-active/DActive';
+import Notification from './src/screens/notification/Notification';
 
 const App = () => {
   return (
 
-    // <Notification/>
+    <Notification/>
 
-    <DActive/>
+    // <DActive/>
   )
 }
 

@@ -10,14 +10,15 @@ export const styles = StyleSheet.create({
     gap: 16,
   },
   NotificationHeading: {
-    fontFamily: 'Fraunces',
+    fontFamily: 'Fraunces-Bold',
     marginHorizontal: 64,
     fontSize: 18,
     lineHeight: 25.2,
+    justifyContent: 'center',
     textAlign: 'center',
     color: colors.NotificationHeading,
   },
-  Icon: {
+  icon: {
     height: 24,
     width: 24,
   },

@@ -1,13 +1,13 @@
-import { View, Text, Pressable } from 'react-native'
 import React from 'react'
-import { styles } from './button-style'
+import { Text, Pressable } from 'react-native'
+import { styles } from './DactiveCardButton-style'
 
-interface Ibutton {
+interface IButtonProp {
   time: number
   detail: string
 }
 
-const Button = ({ time, detail }: Ibutton) => {
+const Button = ({ time, detail }: IButtonProp) => {
   return (
     <Pressable style={styles.button}>
       <Text style={styles.timeText}>

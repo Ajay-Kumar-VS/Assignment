@@ -1,16 +1,15 @@
-import {StyleSheet} from 'react-native';
-import { colors } from '../../theme/colors';
+import { StyleSheet } from 'react-native'
+import { colors } from '../../theme/colors'
 const styles = StyleSheet.create({
-  container:{
-    flex:1,
+  container: {
+    flex: 1,
   },
-  main:{
-    flex:1,
-    justifyContent:'center',
-    alignItems:'center'
+  main: {
+    flex: 1,
+    marginHorizontal: 20,
   },
   DactiveHeading: {
-    fontFamily:"Fraunces",
+    fontFamily: 'Fraunces-Bold',
     fontSize: 18,
 
     lineHeight: 25.2,
@@ -18,7 +17,6 @@ const styles = StyleSheet.create({
     color: colors.DactiveHeading,
   },
   header: {
-    marginTop:44,
     alignItems: 'center',
     gap: 16,
     paddingHorizontal: 24,
@@ -28,9 +26,9 @@ const styles = StyleSheet.create({
     marginTop: 24,
     marginLeft: 20,
     marginRight: 20,
-    marginBottom:35,
+    marginBottom: 35,
     gap: 20,
   },
-});
+})
 
-export default styles;
+export default styles
