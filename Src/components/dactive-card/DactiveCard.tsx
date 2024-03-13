@@ -1,40 +1,39 @@
-import {View, Text, StyleSheet, ImageBackground, Button, Pressable} from 'react-native';
-import React from 'react';
+import React from 'react'
+import { View, Text, ImageBackground, } from 'react-native'
 
-import LinearGradient from 'react-native-linear-gradient';
 
-import {styles} from './dactive-card-style'
+import Button from '../dactive-card-buttons/Button'
 
-const DactiveCard = ({item,color}:any) => {
-  const {title,img}=item
+import { styles } from './dactive-card-style'
+
+
+  interface IDActiveCard {
+    item: {
+      title: string
+      img: any
+    }
+    color: string
+  }
+
+
+const DactiveCard = (props:IDActiveCard) => {
+  const { item, color } = props
+  const { title, img } = item
 
   return (
-    <ImageBackground source={img} style={styles.card}>
-      <LinearGradient
-        colors={['rgba(255, 255, 255, 0.56)', 'rgba(255, 255, 255, 0.124249)', 'rgba(255, 255, 255, 0)']}
-        
-      >
+    <ImageBackground source={img} style={styles.cardBackground}>
       <View style={styles.headingContainer}>
-      
-        <Text style={[styles.heading,{color:color}]}>{title}</Text>
+        <Text style={[styles.heading, { color: color }]}>{title}</Text>
       </View>
-      </LinearGradient>
+
       <View style={styles.buttonContainer}>
-        <Pressable style={styles.button}>
-            <Text style={styles.timeText} >2min</Text>
-        </Pressable>
-        <Pressable  style={styles.button}>
-            <Text style={styles.timeText} >4min</Text>
-        </Pressable>
-        <Pressable style={styles.button}>
-            <Text style={styles.timeText} >8min</Text>
-        </Pressable>
-        
-        
+        <Button time={2} detail={'min'} />
+        <Button time={4} detail={'min'} />
+
+        <Button time={8} detail={'min'} />
       </View>
     </ImageBackground>
-  );
-};
+  )
+}
 
-
-export default DactiveCard;
+export default DactiveCard

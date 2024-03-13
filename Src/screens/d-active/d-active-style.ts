@@ -1,6 +1,9 @@
 import {StyleSheet} from 'react-native';
-
+import { colors } from '../../theme/colors';
 const styles = StyleSheet.create({
+  container:{
+    flex:1,
+  },
   main:{
     flex:1,
     justifyContent:'center',
@@ -12,26 +15,20 @@ const styles = StyleSheet.create({
 
     lineHeight: 25.2,
     textAlign: 'center',
-    color: '#292F36',
-    // fontWeight: '700',
+    color: colors.DactiveHeading,
   },
-  topNav: {
+  header: {
     marginTop:44,
     alignItems: 'center',
-
     gap: 16,
     paddingHorizontal: 24,
     paddingVertical: 16,
   },
   flatList: {
-
     marginTop: 24,
     marginLeft: 20,
     marginRight: 20,
     marginBottom:35,
-
-
-
     gap: 20,
   },
 });
